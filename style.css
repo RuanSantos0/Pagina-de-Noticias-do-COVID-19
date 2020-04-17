@@ -1,0 +1,254 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+     background-color: rgba(176,224,230, 0.2);
+
+}
+
+.pags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #69f ;
+    overflow: hidden;
+    margin-bottom: 5%;
+    z-index: 100;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.25);
+}
+
+
+.pags a{
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.pags a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.pags img {
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+}
+
+#pags-right{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+h1{
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    
+
+}
+
+#sobre{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(176,224,230, 0.2);
+
+}
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+#perfil h2{
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#boxDesc{
+    padding-top: 10px;
+    width: 60vw;
+    height: 20vh;
+    text-align: justify;
+}
+#alink{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+#imgPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+#portifolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+
+#portifolio a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.portifolioBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgLink{
+    padding: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+#contato{
+    background-color: rgba(176,224,230, 0.2);
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px;
+    background-color: rgba(176,224,230, 0.2);
+    border-radius: 10px;
+
+}
+
+#mais{
+    background-color: rgba(176,224,230, 0.2);
+    width: 100vw;
+    height: 100vh;
+}
+
+.curadoriaLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#curadoriaTitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 50px;
+}
+
+.imgCuradoria{
+    padding: 15px;
+    height: 30px;
+    width: 50px;
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+}
+.produtoDestaque{
+    background-color: #fff;
+    margin-top: 5%;
+    /* border: gray 1px solid; */
+    border-radius: 10px;
+    padding: 1%;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: gray 2px 2px 3px;
+    
+}
+
+.imgDestaque{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.desc {
+    width: 350px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc h3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
